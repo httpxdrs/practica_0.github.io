@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación Interactiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            transition: background-color 1s ease;
+            background-color: #222;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 4rem;
+            animation: float 3s ease-in-out infinite;
+            position: absolute;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mensaje">¡Haz clic en cualquier lugar!</h1>
+    
+    <script>
+        const colores = ['#FF5733', '#33FF57', '#5733FF', '#FF33A1', '#33FFF0', '#F0FF33'];
+
+        document.body.addEventListener('click', function() {
+            const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+            document.body.style.backgroundColor = colorAleatorio;
+        });
+    </script>
+</body>
+</html>
