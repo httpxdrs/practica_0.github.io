@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <h2>Formulario con GET</h2>
+    <label for="nombre">Nombres</label>
+    <form action="Formularios.html" method="GET">    
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre(s)" required/>
+    <input type="text"name="apellido_paterno"id="apellido_paterno"placeholder="Apellido paterno"required/> <input type="text" name="apellido_materno" id="apellido_materno" placeholder="Apellido materno" required/>
+    
+
+    <input type="password" name="nombre"  />
+    <input type="file" name="archivo" />
+    <input type="checkbox" name="acepto" />
+    <input type="radio" name="sexo" value="M" />
+    <input type="hidden" name="Folio" />
+    <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"/>
+    </p>
+
+    <div>
+        <label for="Masculino">
+        <input type="radio" id="masculino" name="genero" value="M" checked/>Masculino</label>
+    </div>
+
+    <div>
+        <label for="Femenino">
+        <input type="radio" id="femenino" name="genero" value="F" checked/>Femenino</label>
+    </div>
+
+
+
+
+ <select name="pais">
+     <option value="" selected>Selecciona una opcion bdfhha ggdgdgfffhhffhshffhsfdfd</option>
+     <option value="MX" >México </option>
+     <option value="US">Estados Unidos</option>
+     <option value="CA">Canadá</option>
+     </select>
+
+     <select name="colores" multiple size="2">
+         <option value="rojo">Rojo</option>
+         <option value="verde">Verde</option>
+         <option value="azul">Azul</option>
+         </select>
+         
+         <select name="colores">
+             <optgroup label="Colores primarios">
+             <option value="rojo">Rojo</option>
+             <option value="verde">Verde</option>
+             <option value="azul">Azul</option>
+             </optgroup>
+             <optgroup label="Colores secundarios">
+             <option
+            value="amarillo">Amarillo</option>
+             <option value="naranja">Naranja</option>
+             <option value="violeta">Violeta</option>
+             </optgroup>
+             </select>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+            <button type="button">Cancelar</button>
+
+            <button type="submit">
+                 <img src="imagen 2.jpeg" alt="Icono" width="120" height="120"/>
+                 Guardar
+                 </button>
+
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"/>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido"/>
+                </fieldset>
+
+</form>
+    <h2>Formulario con POST</h2>
+
+    <inputtype="text"name="nombre"id="nombre"placeholder="Nombre(s)"required/>
+    <input type="text"name="apellido_paterno"id="apellido_paterno"placeholder="Apellido paterno"required/>
+    <input type="text"name="apellido_materno"id="apellido_materno"placeholder="Apellido materno"required/>
+
+    <input type="email" required/>
+    <input type="url" required/>
+    <input type="number" required/>
+    <input type="range" required/>
+    <input type="date" required/>
+    <input type="month" required/>
+    <input type="week" required/>
+    <input type="time" required/>
+    <input type="datetime-local" required/>
+    <input type="color" required/>
+    <input type="search" required/>
+    <input type="tel" required/>
+
+    <textarea name="comentario" rows="4" cols="50">
+         holaa
+     </textarea>
+
+  </body>
+</html>
