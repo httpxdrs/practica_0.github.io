@@ -75,7 +75,7 @@ div[class~=azul]{
     color:#009DDC !important;
 }
 html[lang|="es"]{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Roboto', sans-serif;
 }
 a[href^="https://"]{
     color:#F26430;
