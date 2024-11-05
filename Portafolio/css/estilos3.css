@@ -1,0 +1,106 @@
+ *{
+    color: #F26430;
+    color: #FF928B;
+    color: #EFE9AE;
+    color: #CDEAC0;
+    color: #009DDC;
+    color:black;
+    color:white;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #009DDC;
+    background-color: #EFE9AE;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+head {
+    background-color: #F26430;
+    padding: 1rem;
+    text-align: center;
+}
+h1 {
+    color: #FF928B;
+    font-size: 2rem;
+}
+main section {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-left: 4px solid black;
+}
+h3 {
+    color: #F26430;
+    font-family: 'Roboto', sans-serif;
+}
+p, li, td {
+    color: #009DDC;
+}
+a {
+    color:#CDEAC0;
+    text-decoration: none;
+}
+.verde{
+    background-color: #CDEAC0;
+    color:#000;
+}
+button, input[type="submit"] {
+    background-color: #F26430;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #FF928B;
+}
+table caption {
+    font-weight: bold;
+    color: #F26430;
+}
+#sections {
+    background-color: hsl(20, 10%, 10%);
+    color:white
+}
+[type="text"]{
+    border: 2px solid #F26430;
+}
+input[type]{
+    background-color: #EFE9AE;
+}
+p::first-line{
+    font-family: monospace;
+}
+div[class~=azul]{
+    color:#009DDC !important;
+}
+html[lang|="es"]{
+    font-family:'Times New Roman', Times, serif;
+}
+a[href^="https://"]{
+    color:#F26430;
+}
+img[src$="png"]{
+    border: 1px solid #EFE9AE;
+}
+a:hover{
+    color:#FF928B;
+}
+button:active{
+    background-color:#009DDC;
+}
+input:focus{
+    background-color: #FF928B;
+}
+input:checked{
+    background-color: EFE9AE;
+}
+input:disabled{
+    color: #F26430;
+}
+#parrafo p:first-child{
+background-color:#F26430;
+}
+#parrafo p:nth-child(3){
+     font-weight: bold;
+}
