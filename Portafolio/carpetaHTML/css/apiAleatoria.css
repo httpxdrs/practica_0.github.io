@@ -1,0 +1,106 @@
+header {
+    position: relative;
+    background-color: #3b89d6; 
+    padding: 25px 0;
+    box-shadow: 0 4px 6px rgba(187, 66, 66, 0.765); 
+    display: flex;
+    justify-content:baseline; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 140px; 
+    text-align: left; 
+    color: #2b2b2b; 
+    margin-left: 20px; 
+    text-shadow: 
+        3px 3px 0 #2ec4d5, 
+        -3px 3px 0 #2ec4d5,
+        3px -3px 0 #2ec4d5,
+        -3px -3px 0 #2ec4d5; 
+    order: 1; 
+    flex: 1; 
+}
+
+.search-form {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    order: 2; 
+    flex: 1; 
+}
+
+.header-logo {
+    position: static; 
+    margin-right: 20px; 
+    width: px;
+    height: auto;
+    flex-shrink: 0; 
+    order: 3; 
+}
+
+/* Estilo del input */
+#RickyMorty-buscador {
+    border-radius: 10px; 
+    border: 2px solid #2f0808; 
+    padding: 8px 12px;
+    width: 240px; 
+    font-family: "Poppins", sans-serif; 
+}
+
+#buscar-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px; 
+    padding: 8px 16px;
+    background-color: #0a15e9; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#buscar-btn:hover {
+    background-color: #081ec5; 
+}
+
+
+.btn-secondary {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #0e23c1; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+/* Botón de detalles */
+.ver-detalles-btn {
+    background-color: #1014fb; 
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ver-detalles-btn:hover {
+    background-color: #2428ef; 
+}
+
+/* Estilo para la lista de personajes */
+#lista-personajes .card {
+    margin-bottom: 18px; 
+}
+
+/* Fondo del cuerpo */
+body {
+    background-color: #516c81; 
+}
+
